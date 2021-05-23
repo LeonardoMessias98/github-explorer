@@ -1,0 +1,29 @@
+li {
+  box-shadow: 1px 0px 10px 0px #dcdcdc;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+
+  max-width: 450px;
+  width: 100%;
+
+  p {
+    font-size: 14px;
+    color: #444;
+    margin-top: 8px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  a {
+    display: inline-block;
+    margin-top: 16px;
+    text-decoration: none;
+    color: #8257e6;
+    
+  }
+}

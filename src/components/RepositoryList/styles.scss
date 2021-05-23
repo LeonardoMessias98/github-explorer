@@ -1,0 +1,67 @@
+section.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+  
+  margin: 32px 0 0;
+
+  h1 {
+    font-family: inherit;
+  }
+
+  .inputs {
+    display: flex;
+    border: 2px solid #8557e5;
+    background: #ffffff;
+    border-radius: 8px;
+    margin-top: 32px;
+    height: 30px;
+
+    input {
+      height: 100%;
+      background: none;
+      border: none;
+      padding: 0 10px;
+      font-family: inherit;
+      font-weight: 500;
+
+      &,&::placeholder {
+        color: #8261eb;
+      }
+    }
+
+    button {
+      height: 100%;
+      border: none;
+      padding: 0 15px;
+      background: #8557e5;
+      cursor: pointer;
+      color: #ffffff;
+      font-weight: 600;
+    }
+  }
+}
+
+section.repository-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 40px;
+
+  h1 {
+    font-size: 24px;
+    margin: 16px 0 32px;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    width: 100%;
+    max-width: 920px;
+  }
+}
